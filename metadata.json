@@ -1,0 +1,6 @@
+{
+  "name": "AI Munim",
+  "description": "Your Digital Munim for Money, Records & Business Decisions. Voice + vision powered financial copilot for Indian MSMEs to reconcile payments, detect duplicate bills, recover pending collections, and become loan-ready.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

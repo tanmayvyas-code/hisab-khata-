@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D5BD9"/>
+      <stop offset="100%" stop-color="#0B3B7B"/>
+    </linearGradient>
+    <linearGradient id="arrowTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="arrowBot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Square App Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" stroke="#E2E8F0" stroke-width="6"/>
+
+  <!-- Top Sync Arrow (Ledger to Bank) -->
+  <path d="M 190 105 Q 275 55 345 108" fill="none" stroke="url(#arrowTop)" stroke-width="18" stroke-linecap="round"/>
+  <polygon points="358,118 325,116 346,88" fill="#059669"/>
+
+  <!-- Classical Bank Building (Right) -->
+  <g transform="translate(285, 130)">
+    <polygon points="0,48 75,4 150,48" fill="#E2E8F0" stroke="#3B82F6" stroke-width="4"/>
+    <circle cx="75" cy="24" r="6" fill="#0B3B7B"/>
+    <text x="75" y="43" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="16" fill="#0B3B7B">BANK</text>
+    <rect x="14" y="48" width="122" height="10" fill="#3B82F6"/>
+    <!-- Pillars -->
+    <rect x="22" y="58" width="18" height="68" fill="#1D4ED8"/>
+    <rect x="52" y="58" width="18" height="68" fill="#2563EB"/>
+    <rect x="82" y="58" width="18" height="68" fill="#2563EB"/>
+    <rect x="112" y="58" width="18" height="68" fill="#1D4ED8"/>
+    <rect x="8" y="126" width="134" height="14" rx="4" fill="#60A5FA"/>
+  </g>
+
+  <!-- Blue Spiral Ledger Book "हिसाब" (Left) -->
+  <g transform="translate(92, 108)">
+    <rect x="12" y="0" width="126" height="168" rx="16" fill="#93C5FD"/>
+    <rect x="20" y="8" width="126" height="168" rx="16" fill="url(#bookGrad)"/>
+    <!-- Spiral Rings -->
+    <rect x="6" y="28" width="22" height="10" rx="5" fill="#0B3B7B"/>
+    <rect x="6" y="62" width="22" height="10" rx="5" fill="#0B3B7B"/>
+    <rect x="6" y="96" width="22" height="10" rx="5" fill="#0B3B7B"/>
+    <rect x="6" y="130" width="22" height="10" rx="5" fill="#0B3B7B"/>
+    <!-- Green Leaf Accent -->
+    <path d="M 105 32 Q 124 22 128 38 Q 114 48 105 32 Z" fill="#22C55E"/>
+    <text x="84" y="72" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="34" fill="#FFFFFF">हिसाब</text>
+    <rect x="46" y="92" width="76" height="6" rx="3" fill="#60A5FA"/>
+    <rect x="46" y="108" width="56" height="6" rx="3" fill="#60A5FA"/>
+  </g>
+
+  <!-- Center White Receipt with ₹ -->
+  <g transform="translate(222, 178) rotate(-6)">
+    <rect x="0" y="0" width="84" height="110" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+    <text x="20" y="36" font-family="sans-serif" font-weight="800" font-size="28" fill="#0B3B7B">₹</text>
+    <rect x="44" y="18" width="26" height="6" rx="3" fill="#93C5FD"/>
+    <rect x="44" y="30" width="26" height="6" rx="3" fill="#93C5FD"/>
+    <rect x="16" y="52" width="52" height="6" rx="3" fill="#BFDBFE"/>
+    <rect x="16" y="68" width="52" height="6" rx="3" fill="#BFDBFE"/>
+    <rect x="16" y="84" width="38" height="6" rx="3" fill="#BFDBFE"/>
+  </g>
+
+  <!-- Bottom Sync Arrow (Bank to Ledger) -->
+  <path d="M 332 302 Q 256 348 192 296" fill="none" stroke="url(#arrowBot)" stroke-width="18" stroke-linecap="round"/>
+  <polygon points="178,284 212,286 190,314" fill="#2563EB"/>
+
+  <!-- Brand Title: हिसाब Kitab -->
+  <text x="256" y="412" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="56" fill="#0B3B7B">हिसाब Kitab</text>
+  <text x="256" y="452" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="17" letter-spacing="1.5" fill="#1E3A8A">BILL SE BANK TAK, SAARA HISAB EK JAGAH.</text>
+</svg>
